@@ -4,8 +4,8 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = UNK
-		add_core_of = UNK
+		owner = TCS
+		add_core_of = TCS
 		victory_points = {
 			6229 1 #Panevezys
 		}
