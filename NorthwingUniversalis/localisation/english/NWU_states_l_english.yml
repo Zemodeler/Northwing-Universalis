@@ -1,6 +1,11 @@
-l_english:
+﻿l_english:
  STATE_1082: "Nancy"
  STATE_1083: "Paris"
  STATE_1084: "Reims"
  STATE_1085: "Marseille"
  STATE_1086: "Amiens"
+ VICTORY_POINTS_9503: "Nancy"
+ VICTORY_POINTS_11506: "Paris"
+ VICTORY_POINTS_13011: "Reims"
+ VICTORY_POINTS_11834: "Marseille"
+ VICTORY_POINTS_11420: "Amiens"
