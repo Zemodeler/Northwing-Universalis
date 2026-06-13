@@ -1,11 +1,6 @@
-capital = 188
+capital = 159
 
 set_research_slots = 3
-
-set_autonomy = {
-	target = NWK
-	autonomy_state = autonomy_puppet
-}
 
 set_politics = {
 	ruling_party = neutrality
@@ -29,9 +24,9 @@ set_technology = {
 }
 
 create_country_leader = {
-	name = "mateplayss"
-	desc = "POLITICS_MATEPLAYSS_DESC"
-	picture = "gfx/leaders/TCS/Mateplayss.dds"
+	name = "equinot"
+	desc = "POLITICS_EQUINOT_DESC"
+	picture = "gfx/leaders/GSR/Equinot.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

@@ -23,5 +23,14 @@ bookmarks = {
 				original_tag = TCS
 			}
 		}
+
+		"GSR" = {
+			history = "GSR_1790_DESC"
+			ideology = neutrality
+			minor = no
+			available = {
+				original_tag = GSR
+			}
+		}
 	}
 }
