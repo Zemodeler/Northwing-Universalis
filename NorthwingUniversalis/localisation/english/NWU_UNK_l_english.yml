@@ -18,3 +18,5 @@
  UNK_neutrality_party_long: "Unknown"
  Unknown: "Unknown"
  POLITICS_UNKNOWN_DESC: "Leader of Unknown."
+ UNK_unknown_focus: "Unknown Purpose"
+ UNK_unknown_focus_desc: "This focus is reserved for a human player."

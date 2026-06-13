@@ -1,0 +1,33 @@
+focus_tree = {
+	id = unk_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNK
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = UNK_unknown_focus
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 10
+
+		available = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		completion_reward = {
+		}
+	}
+}
