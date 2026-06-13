@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "NWU_1790_NAME"
+		desc = "NWU_1790_DESC"
+		date = 1790.1.1
+		picture = "GFX_select_date_1936"
+		default = yes
+
+		"NWK" = {
+			history = "NWK_1790_DESC"
+			ideology = neutrality
+			minor = no
+			available = {
+				original_tag = NWK
+			}
+		}
+
+		"TCS" = {
+			history = "TCS_1790_DESC"
+			ideology = neutrality
+			minor = no
+			available = {
+				original_tag = TCS
+			}
+		}
+	}
+}

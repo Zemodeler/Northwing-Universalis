@@ -5,4 +5,5 @@ tags={
 }
 name="Northwing Universalis"
 picture="thumb.jpg"
+replace_path="common/bookmarks"
 
