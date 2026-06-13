@@ -1,0 +1,8 @@
+version="1.0.0"
+tags={
+	"Alternative History"
+	"National Focuses"
+}
+name="Northwing Universalis"
+picture="thumb.jpg"
+
