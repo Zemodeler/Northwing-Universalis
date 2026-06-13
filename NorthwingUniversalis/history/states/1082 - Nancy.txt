@@ -1,0 +1,30 @@
+state = {
+	id = 1082
+	name = "STATE_1082"
+	manpower = 120000
+
+	state_category = city
+
+	history = {
+		owner = NWK
+		add_core_of = NWK
+
+		victory_points = { 9503 5 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			9503 = {
+				bunker = 10
+			}
+		}
+	}
+
+	provinces = {
+		9503
+	}
+
+	local_supplies = 2.0
+}

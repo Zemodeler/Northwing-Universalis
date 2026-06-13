@@ -1,0 +1,27 @@
+state = {
+	id = 1084
+	name = "STATE_1084"
+	manpower = 115000
+
+	state_category = city
+
+	history = {
+		owner = UNK
+		add_core_of = UNK
+
+		victory_points = { 13011 5 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+
+	provinces = {
+		13011
+	}
+
+	local_supplies = 2.0
+}
