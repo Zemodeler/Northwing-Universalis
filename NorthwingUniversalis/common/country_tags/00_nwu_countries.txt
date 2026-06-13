@@ -1,2 +1,3 @@
 TCS = "countries/TCS - The Cobalt State.txt"
 UNK = "countries/UNK - Unknown.txt"
+NWK = "countries/NWK - Northwing Kingdom.txt"

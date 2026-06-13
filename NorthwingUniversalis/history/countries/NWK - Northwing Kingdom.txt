@@ -1,0 +1,34 @@
+capital = 1
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+}
+
+create_country_leader = {
+	name = "andre2nd"
+	desc = "POLITICS_ANDRE2ND_DESC"
+	picture = "gfx/leaders/NWK/Andre2nd.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
