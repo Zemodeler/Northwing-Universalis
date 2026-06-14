@@ -1,0 +1,4214 @@
+focus_tree = {
+	id = nwk_focus_tree
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NWK
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 4800 y = 0 }
+
+	focus = {
+		id = nwk_placeholder
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 0
+		cost = 15
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_build_fort_Iconhood
+		icon = GFX_goal_generic_political_pressure
+		x = -4
+		y = 1
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_establish_the_NNB
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 0
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_expand_the_fortifications
+		icon = GFX_goal_generic_political_pressure
+		x = -4
+		y = 2
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_royal_patronage
+		icon = GFX_goal_generic_political_pressure
+		x = 7
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = foster_the_cult_of_personality
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_loyal_servants_of_the_crown
+		icon = GFX_goal_generic_political_pressure
+		x = -2
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_high_society_contracts
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_root_out_cobalt_loyalists
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 3
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_empower_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_nancy_political_landscape
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_placeholder
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_institute_the_black_chamber
+		icon = GFX_goal_generic_political_pressure
+		x = -1
+		y = 2
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_nancy_political_landscape
+		}
+
+		mutually_exclusive = {
+			focus = nwk_empower_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_empower_the_conseil_d_etat
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 2
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_nancy_political_landscape
+		}
+
+		mutually_exclusive = {
+			focus = nwk_institute_the_black_chamber
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_relocate_the_treasury
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 3
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_empower_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_identify_the_turncoats
+		icon = GFX_goal_generic_political_pressure
+		x = -1
+		y = 3
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_institute_the_black_chamber
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_seek_foreign_aid
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_relocate_the_treasury
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_report_back_to_memelburg
+		icon = GFX_goal_generic_political_pressure
+		x = -2
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_identify_the_turncoats
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_consolidate_the_security_apparatus
+		icon = GFX_goal_generic_political_pressure
+		x = 1
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_identify_the_turncoats
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_infiltrate_the_army
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_consolidate_the_security_apparatus
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_memo_18
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_consolidate_the_security_apparatus
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_secure_the_army_societies
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_infiltrate_the_army
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_high_society_contracts
+		icon = GFX_goal_generic_political_pressure
+		x = -2
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_report_back_to_memelburg
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_propaganda_warfare
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_memo_18
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_assasinate_the_marshal
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 7
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_propaganda_warfare
+			focus = nwk_secure_the_army_societies
+			focus = nwk_the_loyal_servants_of_the_crown
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_form_the_bureau_d_action
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_root_out_cobalt_loyalists
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_force_the_matter_to_a_head
+		icon = GFX_goal_generic_political_pressure
+		x = 7
+		y = 7
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_centralise_the_youth_groups
+			focus = nwk_le_roi_et_la_loi
+			focus = nwk_royal_arsenal_of_defense
+			focus = nwk_royal_patronage
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = foster_the_cult_of_personality
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_form_the_bureau_d_action
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_le_roi_et_la_loi
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = foster_the_cult_of_personality
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_raise_the_royal_guards
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_form_the_bureau_d_action
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_royal_arsenal_of_defense
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_raise_the_royal_guards
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_centralise_the_youth_groups
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = foster_the_cult_of_personality
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_aftermath_of_the_war
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 8
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_assasinate_the_marshal
+			focus = nwk_force_the_matter_to_a_head
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_a_provisional_government
+		icon = GFX_goal_generic_political_pressure
+		x = -17
+		y = 9
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_aftermath_of_the_war
+		}
+
+		mutually_exclusive = {
+			focus = nwk_the_king_reigns_supreme
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_king_reigns_supreme
+		icon = GFX_goal_generic_political_pressure
+		x = 5
+		y = 9
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_aftermath_of_the_war
+		}
+
+		mutually_exclusive = {
+			focus = nwk_a_provisional_government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_commemorate_the_fallen
+		icon = GFX_goal_generic_political_pressure
+		x = -17
+		y = 10
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_a_provisional_government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_constituent_assembly
+		icon = GFX_goal_generic_political_pressure
+		x = -17
+		y = 11
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_commemorate_the_fallen
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_republic_prevails
+		icon = GFX_goal_generic_political_pressure
+		x = -6
+		y = 12
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_constituent_assembly
+		}
+
+		prerequisite = {
+			focus = nwk_the_royal_constitution
+		}
+
+		mutually_exclusive = {
+			focus = nwk_praetorian_dominance
+			focus = nwk_mandated_by_god
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_praetorian_dominance
+		icon = GFX_goal_generic_political_pressure
+		x = -18
+		y = 12
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_constituent_assembly
+		}
+
+		mutually_exclusive = {
+			focus = nwk_the_republic_prevails
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_rebuild_nancy
+		icon = GFX_goal_generic_political_pressure
+		x = 5
+		y = 10
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_king_reigns_supreme
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_royal_constitution
+		icon = GFX_goal_generic_political_pressure
+		x = 5
+		y = 11
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_rebuild_nancy
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_mandated_by_god
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 12
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_royal_constitution
+		}
+
+		mutually_exclusive = {
+			focus = nwk_the_republic_prevails
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_integrate_the_cossacks
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 14
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_reign_in_the_country
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_forzerix_affair
+		icon = GFX_goal_generic_political_pressure
+		x = 8
+		y = 14
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_reign_in_the_country
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_revoke_the_rights_of_minorities
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 15
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_integrate_the_cossacks
+		}
+
+		prerequisite = {
+			focus = nwk_the_forzerix_affair
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_reign_in_the_country
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 13
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_mandated_by_god
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_empower_local_agents
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 15
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_provincial_prefects
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_provincial_prefects
+		icon = GFX_goal_generic_political_pressure
+		x = 10
+		y = 14
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_reign_in_the_country
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_tighten_economic_policy
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 13
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_mandated_by_god
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_nationalise_foreign_assets
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 14
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_tighten_economic_policy
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_confiscate_emigre_property
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 15
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_nationalise_foreign_assets
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_institute_royal_dictatorship
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 16
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_revoke_the_rights_of_minorities
+		}
+
+		prerequisite = {
+			focus = nwk_empower_local_agents
+		}
+
+		prerequisite = {
+			focus = nwk_confiscate_emigre_property
+		}
+
+		mutually_exclusive = {
+			focus = nwk_king_andre_abdicates
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_restore_the_service_de_renseignements
+		icon = GFX_goal_generic_political_pressure
+		x = 6
+		y = 17
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_institute_royal_dictatorship
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_disband_the_ministere_de_la_justice
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 17
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_institute_royal_dictatorship
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_raid_the_prisons
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 18
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_disband_the_ministere_de_la_justice
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_behead_military_leadership
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 18
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_disband_the_ministere_de_la_justice
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_camarilla_officers
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_behead_military_leadership
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_remove_the_conseil_d_etat
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_camarilla_officers
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_directive_de_securite_generale
+		icon = GFX_goal_generic_political_pressure
+		x = 7
+		y = 18
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_restore_the_service_de_renseignements
+		}
+
+		prerequisite = {
+			focus = nwk_disband_the_ministere_de_la_justice
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_kings_justice
+		icon = GFX_goal_generic_political_pressure
+		x = 7
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_directive_de_securite_generale
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_outlaw_private_weapons
+		icon = GFX_goal_generic_political_pressure
+		x = 7
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_ministere_de_la_police_generale
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_ministere_de_la_police_generale
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_remove_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_reinforce_the_kings_madness
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_ministere_de_la_police_generale
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_metz_affair
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_remove_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_dismiss_the_government
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_metz_affair
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_father_of_all_frenchmen
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 23
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_dismiss_the_government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_renewed_pride
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 24
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_father_of_all_frenchmen
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_king_andre_abdicates
+		icon = GFX_goal_generic_political_pressure
+		x = 21
+		y = 16
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		mutually_exclusive = {
+			focus = nwk_institute_royal_dictatorship
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_prince_s_government
+		icon = GFX_goal_generic_political_pressure
+		x = 28
+		y = 17
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_king_andre_abdicates
+		}
+
+		mutually_exclusive = {
+			focus = nwk_the_old_guard
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_old_guard
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 17
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_king_andre_abdicates
+		}
+
+		mutually_exclusive = {
+			focus = nwk_the_prince_s_government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_prepare_for_civil_war
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 18
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_old_guard
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_directoire_pour_la_renaissance_nationale
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_prepare_for_civil_war
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_set_up_local_weapon_caches
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_directoire_pour_la_renaissance_nationale
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_organise_political_banquets
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_directoire_pour_la_renaissance_nationale
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_seek_endorsement_from_the_church
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_organise_political_banquets
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_equipes_d_intervention
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_set_up_local_weapon_caches
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_police_bribes
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_equipes_d_intervention
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_approach_local_magistrates
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_seek_endorsement_from_the_church
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_la_patrie_en_danger
+		icon = GFX_goal_generic_political_pressure
+		x = 18
+		y = 23
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_police_bribes
+		}
+
+		prerequisite = {
+			focus = nwk_approach_local_magistrates
+		}
+
+		prerequisite = {
+			focus = nwk_acquire_heavy_artillery
+		}
+
+		prerequisite = {
+			focus = nwk_gamble_on_maneuver_warfare
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_winter_address
+		icon = GFX_goal_generic_political_pressure
+		x = 20
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_prepare_for_civil_war
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_encourage_army_mutinies
+		icon = GFX_goal_generic_political_pressure
+		x = 20
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_winter_address
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_secure_the_rhine_garrisons
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_encourage_army_mutinies
+		}
+
+		mutually_exclusive = {
+			focus = nwk_concentrate_around_the_capital
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_concentrate_around_the_capital
+		icon = GFX_goal_generic_political_pressure
+		x = 21
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_encourage_army_mutinies
+		}
+
+		mutually_exclusive = {
+			focus = nwk_secure_the_rhine_garrisons
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_acquire_heavy_artillery
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_secure_the_rhine_garrisons
+		}
+
+		mutually_exclusive = {
+			focus = nwk_gamble_on_maneuver_warfare
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_gamble_on_maneuver_warfare
+		icon = GFX_goal_generic_political_pressure
+		x = 21
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_concentrate_around_the_capital
+		}
+
+		mutually_exclusive = {
+			focus = nwk_acquire_heavy_artillery
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_purge_the_conseil_d_etat
+		icon = GFX_goal_generic_political_pressure
+		x = 28
+		y = 18
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_prince_s_government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_empower_the_intelligence_services
+		icon = GFX_goal_generic_political_pressure
+		x = 25
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_pardon_the_black_chamber
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_pardon_the_black_chamber
+		icon = GFX_goal_generic_political_pressure
+		x = 26
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_purge_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_carte_blanche_with_the_cobalt_state
+		icon = GFX_goal_generic_political_pressure
+		x = 27
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_pardon_the_black_chamber
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_confederation_de_l_industrie_francaise
+		icon = GFX_goal_generic_political_pressure
+		x = 30
+		y = 19
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_purge_the_conseil_d_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_corporate_militarism
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_confederation_de_l_industrie_francaise
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_establish_worker_paramilitary_units
+		icon = GFX_goal_generic_political_pressure
+		x = 31
+		y = 20
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_confederation_de_l_industrie_francaise
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_information_warfare
+		icon = GFX_goal_generic_political_pressure
+		x = 25
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_empower_the_intelligence_services
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_send_ambassadors_to_memel
+		icon = GFX_goal_generic_political_pressure
+		x = 27
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_carte_blanche_with_the_cobalt_state
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_seek_cobalt_support
+		icon = GFX_goal_generic_political_pressure
+		x = 26
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_send_ambassadors_to_memel
+		}
+
+		prerequisite = {
+			focus = nwk_information_warfare
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_centralise_the_unions
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_corporate_militarism
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_legionnaire_du_travail
+		icon = GFX_goal_generic_political_pressure
+		x = 31
+		y = 21
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_establish_worker_paramilitary_units
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_legion_nationale_des_travailleurs
+		icon = GFX_goal_generic_political_pressure
+		x = 30
+		y = 22
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_centralise_the_unions
+		}
+
+		prerequisite = {
+			focus = nwk_legionnaire_du_travail
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_summon_the_marshal_to_nancy
+		icon = GFX_goal_generic_political_pressure
+		x = 27
+		y = 23
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_seek_cobalt_support
+		}
+
+		prerequisite = {
+			focus = nwk_legion_nationale_des_travailleurs
+		}
+
+		mutually_exclusive = {
+			focus = nwk_siege_fort_Iconhood
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_siege_fort_Iconhood
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 23
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_seek_cobalt_support
+		}
+
+		prerequisite = {
+			focus = nwk_legion_nationale_des_travailleurs
+		}
+
+		mutually_exclusive = {
+			focus = nwk_summon_the_marshal_to_nancy
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_triumph_of_the_marshal
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 24
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_la_patrie_en_danger
+			focus = nwk_summon_the_marshal_to_nancy
+			focus = nwk_siege_fort_Iconhood
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_king_andre_returns
+		icon = GFX_goal_generic_political_pressure
+		x = 23
+		y = 24
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_siege_fort_Iconhood
+			focus = nwk_summon_the_marshal_to_nancy
+			focus = nwk_la_patrie_en_danger
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_end_the_status_quo
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 24
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_la_patrie_en_danger
+			focus = nwk_summon_the_marshal_to_nancy
+			focus = nwk_siege_fort_Iconhood
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_custode_of_the_fatherland
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 25
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_triumph_of_the_marshal
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_dismantle_the_terror_machine
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_custode_of_the_fatherland
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_form_the_imperial_council
+		icon = GFX_goal_generic_political_pressure
+		x = 21
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_empower_the_senate
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_strategie_de_relance_economique
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 25
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_triumph_of_the_marshal
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_draft_a_new_constitution
+		icon = GFX_goal_generic_political_pressure
+		x = 20
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_dismantle_the_terror_machine
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_sweeping_land_reform
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_strategie_de_relance_economique
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_issue_a_new_currency
+		icon = GFX_goal_generic_political_pressure
+		x = 13
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_strategie_de_relance_economique
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_compromise_with_the_landowners
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_sweeping_land_reform
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_le_grand_deluge
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_end_the_persecution
+		}
+
+		prerequisite = {
+			focus = nwk_draft_a_new_constitution
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_atract_foreign_investors
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_issue_a_new_currency
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_fill_the_coffers
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_vosges_silver_mines
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_break_the_trade_unions
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_atract_foreign_investors
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_vosges_silver_mines
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_issue_a_new_currency
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_capital_of_french_trade
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_fill_the_coffers
+		}
+
+		prerequisite = {
+			focus = nwk_break_the_trade_unions
+		}
+
+		prerequisite = {
+			focus = nwk_subsidies_for_small_farmers
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_subsidies_for_small_farmers
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_compromise_with_the_landowners
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_empower_the_senate
+		icon = GFX_goal_generic_political_pressure
+		x = 21
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_le_grand_deluge
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_a_new_national_identity
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_le_grand_deluge
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_restore_justice_to_northwing
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 31
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_form_the_imperial_council
+		}
+
+		prerequisite = {
+			focus = nwk_collective_memory
+		}
+
+		prerequisite = {
+			focus = nwk_order_and_stability
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_end_the_persecution
+		icon = GFX_goal_generic_political_pressure
+		x = 18
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_dismantle_the_terror_machine
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_collective_memory
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_a_new_national_identity
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_the_black_prince
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 25
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_end_the_status_quo
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_start_the_three_year_plan
+		icon = GFX_goal_generic_political_pressure
+		x = 34
+		y = 25
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_end_the_status_quo
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_expand_internal_surveilance
+		icon = GFX_goal_generic_political_pressure
+		x = 27
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_black_prince
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_tout_pour_l_etat
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_black_prince
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_order_and_stability
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_traditional_values
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_traditional_values
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_le_grand_deluge
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_ban_the_printing_press
+		icon = GFX_goal_generic_political_pressure
+		x = 27
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_expand_internal_surveilance
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_loyalty_to_the_prince
+		icon = GFX_goal_generic_political_pressure
+		x = 28
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_outlaw_private_banquets
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_avant_gardistes
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_tout_pour_l_etat
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_state_appointed_priests
+		icon = GFX_goal_generic_political_pressure
+		x = 31
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_subjugate_the_church
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_subjugate_the_church
+		icon = GFX_goal_generic_political_pressure
+		x = 31
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_black_prince
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_outlaw_private_banquets
+		icon = GFX_goal_generic_political_pressure
+		x = 28
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_ban_the_printing_press
+		}
+
+		prerequisite = {
+			focus = nwk_avant_gardistes
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_national_crusade
+		icon = GFX_goal_generic_political_pressure
+		x = 30
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_french_irredentism
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_public_works_schemes
+		icon = GFX_goal_generic_political_pressure
+		x = 33
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_start_the_three_year_plan
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_french_irredentism
+		icon = GFX_goal_generic_political_pressure
+		x = 30
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_avant_gardistes
+		}
+
+		prerequisite = {
+			focus = nwk_state_appointed_priests
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_end_labour_disputes
+		icon = GFX_goal_generic_political_pressure
+		x = 35
+		y = 26
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_start_the_three_year_plan
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_nancy_palace_speech
+		icon = GFX_goal_generic_political_pressure
+		x = 29
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_loyalty_to_the_prince
+		}
+
+		prerequisite = {
+			focus = nwk_national_crusade
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_invisible_unemployment
+		icon = GFX_goal_generic_political_pressure
+		x = 33
+		y = 27
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_public_works_schemes
+		}
+
+		prerequisite = {
+			focus = nwk_end_labour_disputes
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_prepare_for_austerity
+		icon = GFX_goal_generic_political_pressure
+		x = 34
+		y = 28
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_invisible_unemployment
+		}
+
+		prerequisite = {
+			focus = nwk_end_labour_disputes
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_nationalise_strategic_industries
+		icon = GFX_goal_generic_political_pressure
+		x = 33
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_prepare_for_austerity
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_export_quotas
+		icon = GFX_goal_generic_political_pressure
+		x = 35
+		y = 29
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_prepare_for_austerity
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_crack_down_on_smugglers
+		icon = GFX_goal_generic_political_pressure
+		x = 35
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_export_quotas
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_military_oversight_over_the_economy
+		icon = GFX_goal_generic_political_pressure
+		x = 33
+		y = 30
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_nationalise_strategic_industries
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_northwing_autarky
+		icon = GFX_goal_generic_political_pressure
+		x = 34
+		y = 31
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_crack_down_on_smugglers
+		}
+
+		prerequisite = {
+			focus = nwk_military_oversight_over_the_economy
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_shaping_the_republic
+		icon = GFX_goal_generic_political_pressure
+		x = -6
+		y = 14
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_revolutionary_spirit
+		}
+
+		prerequisite = {
+			focus = nwk_place_the_king_under_house_arrest
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_revolutionary_spirit
+		icon = GFX_goal_generic_political_pressure
+		x = -5
+		y = 13
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_republic_prevails
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_place_the_king_under_house_arrest
+		icon = GFX_goal_generic_political_pressure
+		x = -7
+		y = 13
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_the_republic_prevails
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_depose_the_king
+		icon = GFX_goal_generic_political_pressure
+		x = -11
+		y = 15
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_shaping_the_republic
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_constitutional_monarchy
+		icon = GFX_goal_generic_political_pressure
+		x = -1
+		y = 15
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = {
+			focus = nwk_shaping_the_republic
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = nwk_future_of_french_democracy
+		icon = GFX_goal_generic_political_pressure
+		x = -2
+		y = 16
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = NWK_focus_164
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 16
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+}
