@@ -1,0 +1,199 @@
+ideologies = {
+	national_populism = {
+		types = {
+			national_populism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 113 0 148 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.50
+		faction_impact_on_world_tension = 0.40
+		puppet_impact_on_world_tension = 0.40
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	absolute_monarchism = {
+		types = {
+			absolute_monarchism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 142 68 173 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.35
+		faction_impact_on_world_tension = 0.30
+		puppet_impact_on_world_tension = 0.30
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	theocratic_conservatism = {
+		types = {
+			theocratic_conservatism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 61 90 169 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.30
+		faction_impact_on_world_tension = 0.25
+		puppet_impact_on_world_tension = 0.25
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	reactionary_conservatism = {
+		types = {
+			reactionary_conservatism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 46 134 193 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.20
+		puppet_impact_on_world_tension = 0.20
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	national_conservatism = {
+		types = {
+			national_conservatism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 42 161 152 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.20
+		faction_impact_on_world_tension = 0.20
+		puppet_impact_on_world_tension = 0.20
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	market_liberalism = {
+		types = {
+			market_liberalism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 76 175 80 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.10
+		faction_impact_on_world_tension = 0.10
+		puppet_impact_on_world_tension = 0.10
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	democratic_republicanism = {
+		types = {
+			democratic_republicanism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 192 202 51 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.10
+		faction_impact_on_world_tension = 0.10
+		puppet_impact_on_world_tension = 0.10
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	radical_republicanism = {
+		types = {
+			radical_republicanism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 243 156 18 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.20
+		puppet_impact_on_world_tension = 0.20
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+
+	proto_communism = {
+		types = {
+			proto_communism_subtype = {
+				can_be_randomly_selected = yes
+			}
+		}
+		color = rgb { 198 40 40 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		war_impact_on_world_tension = 0.35
+		faction_impact_on_world_tension = 0.30
+		puppet_impact_on_world_tension = 0.30
+		modifiers = {
+			drift_defence_factor = 0.05
+		}
+		can_be_boosted = yes
+		can_collaborate = yes
+	}
+}

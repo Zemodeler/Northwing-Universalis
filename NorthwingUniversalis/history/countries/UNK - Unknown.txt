@@ -3,17 +3,22 @@ capital = 1
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = absolute_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	national_populism = 0
+	absolute_monarchism = 100
+	theocratic_conservatism = 0
+	reactionary_conservatism = 0
+	national_conservatism = 0
+	market_liberalism = 0
+	democratic_republicanism = 0
+	radical_republicanism = 0
+	proto_communism = 0
 }
 
 set_technology = {
@@ -28,7 +33,7 @@ create_country_leader = {
 	desc = "POLITICS_UNKNOWN_DESC"
 	picture = "gfx/leaders/UNK/Unknown.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolute_monarchism_subtype
 	traits = {
 	}
 }

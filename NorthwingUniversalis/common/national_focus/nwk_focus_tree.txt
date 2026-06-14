@@ -2721,8 +2721,6 @@ focus_tree = {
 
 		prerequisite = {
 			focus = nwk_la_patrie_en_danger
-			focus = nwk_summon_the_marshal_to_nancy
-			focus = nwk_siege_fort_Iconhood
 		}
 
 		cancel_if_invalid = yes
@@ -2778,7 +2776,6 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = nwk_la_patrie_en_danger
 			focus = nwk_summon_the_marshal_to_nancy
 			focus = nwk_siege_fort_Iconhood
 		}

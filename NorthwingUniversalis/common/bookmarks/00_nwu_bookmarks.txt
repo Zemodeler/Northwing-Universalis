@@ -8,7 +8,7 @@ bookmarks = {
 
 		"NWK" = {
 			history = "NWK_1790_DESC"
-			ideology = neutrality
+			ideology = absolute_monarchism
 			minor = no
 			available = {
 				original_tag = NWK
@@ -17,7 +17,7 @@ bookmarks = {
 
 		"TCS" = {
 			history = "TCS_1790_DESC"
-			ideology = neutrality
+			ideology = absolute_monarchism
 			minor = no
 			available = {
 				original_tag = TCS
@@ -26,7 +26,7 @@ bookmarks = {
 
 		"GSR" = {
 			history = "GSR_1790_DESC"
-			ideology = neutrality
+			ideology = absolute_monarchism
 			minor = no
 			available = {
 				original_tag = GSR
